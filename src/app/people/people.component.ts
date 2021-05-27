@@ -26,8 +26,7 @@ export class PeopleComponent implements OnInit {
     };
     this.peopleService.getPeople(params).subscribe(
       (data: any) => {
-				console.log(data.results);
-        this.peopleDetail = data['results'];
+        this.peopleDetail = data;
       },
       (err) => {
         console.log('HERE ARE ERR', err);

@@ -31,13 +31,10 @@ export class LoginComponent implements OnInit {
   }
 
   public validateForm(): void {
-    console.log('incia sesion');
-		console.log(this.form.valid, 'Is valid')
 		if (this.form.valid) {
 			this.router.navigate(['/people']);
      } else {
 			this.emptyError = true;
-			alert('Por favor revisa todos los campos');
      }
   }
 }

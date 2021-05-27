@@ -3,7 +3,7 @@
     <div class="inl inl-mid">
       <div class="inl inl-mid">
         <p class="inl inl-mid">Total de personas</p>
-        <!-- <p class="inl inl-mid people-value">{{peopleDetail.total}}</p> -->
+        <p class="inl inl-mid people-value">{{peopleDetail.total}}</p>
       </div>
       <div class="people-new inl inl-mid">
         <p class="inl inl-mid">Nuevos</p>
@@ -49,8 +49,8 @@
   </div>
   <div
     class="people-details-info"
-    *ngFor="let people of peopleDetail"
-  >
+    *ngFor="let people of peopleDetail.results"
+  [routerLink]="['/people-interior']">
     <div class="people-details-info-details inl inl-mid txt-l">
       <input class="checkbox inl inl-mid" type="checkbox" />
       <img class="inl inl-mid" src="../assets/icons/pin.svg" />

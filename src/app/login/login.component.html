@@ -1,0 +1,56 @@
+<section>
+  <div class="login-container back-img">
+    <div class="login-popup-cont txt-c">
+      <div class="login-popup-white inl inl-mid">
+        <div class="sub-title-form txt-l">
+          <p class="inl">Nosotros</p>
+          <div class="inl img back-img"></div>
+        </div>
+        <div class="login-popup-form">
+          <form [formGroup]="form" (ngSubmit)="validateForm()">
+            <input class="input" type="email" formControlName="email" placeholder="Email" />
+            <input class="input" type="password" formControlName="password" placeholder="Password" />
+            <div class="login-popup-form-button cont-mid">
+              <div class="inl inl-mid txt-l">
+                <input class="checkbox inl inl-mid" type="checkbox" />
+                <p class="inl inl-mid">Recordarme</p>
+              </div>
+              <div class="inl inl-mid txt-r">
+                <button type="submit" class="button-fill-blue float-r">Log in</button>
+              </div>
+            </div>
+            <p class="login-popup-remember txt-c">Olvide mi contraseña</p>
+            <p *ngIf="emptyError" class="login-popup-remember error">
+              Completa todos los campos
+            </p>
+            <p *ngIf="emailError" class="login-popup-remember error">
+              Emai invalido
+            </p>
+          </form>
+        </div>
+      </div>
+      <div class="login-popup-black txt-l inl inl-mid">
+        <h1>Bienvenido a</h1>
+        <img class="logo" src="../assets/image/logo-white.svg" />
+        <p>
+          Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+          dolore magna
+        </p>
+        <div class="ilustration txt-c">
+          <img src="../assets/image/ilusst.svg" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer cont-mid">
+    <div class="inl-mid">
+      <img src="../assets/image/recaudia.svg" />
+    </div>
+    <div class="txt-r inl-mid">
+      <p class="inl inl-mid">Need support Conntact Us:</p>
+      <img class="inl inl-mid" src="../../assets/icons/phone.svg" />
+      <img class="inl inl-mid" src="../../assets/icons/mail.svg" />
+    </div>
+  </div>
+</section>

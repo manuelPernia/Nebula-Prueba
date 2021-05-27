@@ -1,0 +1,164 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Rubik";
+  src: url("/assets/fonts/Rubik.woff") format("woff"),
+    url("/assets/fonts/Rubik.woof2") format("woof2");
+  font-weight: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  width: 100%;
+  /*height: 100%;*/
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-family: "Rubik";
+  position: relative;
+  /*overflow: hidden;*/
+  overflow: auto;
+  background: #ffffff;
+}
+
+button {
+  outline: 0;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Generic text colors */
+
+.clr-white {
+  color: #ffffff;
+}
+
+.clr-black {
+  color: #000;
+}
+
+.clr-gray {
+  color: #8c8888;
+}
+
+.txt-c {
+  text-align: center;
+}
+
+.txt-l {
+  text-align: left;
+}
+
+.txt-r {
+  text-align: right;
+}
+
+.back-img {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.input {
+  width: 100%;
+  height: 45px;
+  margin: 12px 0px;
+  padding: 12px 10px;
+  border: none;
+  border-bottom: 1.5px solid #eeeeee;
+  background-color: #ffffff;
+}
+
+.button-fill-blue {
+  width: 200px;
+  height: 40px;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 20px;
+  background-color: #3697cf;
+}
+
+.button-outline-white {
+  width: 200px;
+  height: 40px;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: 1.5px solid #ffffff;
+  background-color: transparent;
+}
+
+.checbox {
+  width: 24px;
+  height: 24px;
+  border: 1.5px solid #eeeeee;
+}
+
+.inl {
+  display: inline-block;
+}
+.inl-mid {
+  vertical-align: middle;
+}
+
+.inl-top {
+  vertical-align: top;
+}
+
+.inl-bot {
+  vertical-align: bottom;
+}
+
+.hidden {
+  display: none !important;
+}
+.bold {
+  font-weight: bold;
+}
+.float-r {
+  float: right;
+}
+
+.float-l {
+  float: left;
+}
+
+.link {
+  cursor: pointer;
+}
+.cont-mid > * {
+  width: 50%;
+  display: inline-block;
+}
+
+app-root {
+  height: 100%;
+  display: block;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */

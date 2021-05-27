@@ -1,0 +1,139 @@
+section {
+  background-color: #fbfbfb;
+}
+.interior-details-title {
+  color: #5d5d5d;
+  margin: 12px 0px;
+  font-size: 24px;
+}
+.interior-details-description {
+  color: #909090;
+  margin: 12px 0px;
+}
+.people-interior-blue {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  background-color: #3697cf;
+  .interior-user-photo {
+    padding: 40px;
+    img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  .subtitle {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  .interior-description {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+  }
+  .button-outline-white {
+    margin: 12px 0px;
+  }
+  .resources-menu-cont {
+    width: 100%;
+    padding: 24px;
+    margin-bottom: 40px;
+    .resources-menu-inactive {
+      width: 100%;
+      height: 60px;
+      padding: 8px 24px;
+      img {
+        color: #2e759e;
+        margin-right: 24px;
+      }
+      p {
+        font-size: 16px;
+        font-weight: bold;
+        color: #ffffff;
+      }
+    }
+  }
+}
+.interior-right {
+  width: 80%;
+  margin-left: 20%;
+}
+.interior-back {
+  width: 100%;
+  height: 60px;
+  padding: 16px 40px;
+  background-color: #05293e;
+  img {
+    margin-right: 12px;
+  }
+  p {
+    color: #ffffff;
+    font-size: 14px;
+    margin-right: 24px;
+    font-weight: bold;
+  }
+}
+.interior-details-user {
+  padding: 60px;
+  .interior-details-user-info {
+    width: 100%;
+    height: 400px;
+    padding: 40px 60px;
+    background-color: #ffffff;
+    .interior-details-user-img {
+      width: 250px;
+      height: 250px;
+    }
+    .interior-details-user-settings {
+      width: 80px;
+      height: 32px;
+      padding: 0px;
+      margin-left: 24px;
+      border-radius: 12px;
+      background-color: #3697cf;
+    }
+  }
+}
+.interior-details-adress {
+  width: 58%;
+  height: 450px;
+  padding: 40px 60px;
+  margin-top: 40px;
+  background-color: #ffffff;
+  select {
+    width: 200px;
+    margin-left: 24px;
+  }
+}
+.interior-details-adress-saved {
+  width: 38%;
+  height: 450px;
+  padding: 40px 0px;
+  margin-top: 40px;
+  background-color: #ffffff;
+  h1 {
+    margin-left: 60px;
+  }
+  .interior-details-adress-saved-cont {
+    width: 100%;
+    height: 120px;
+    padding: 20px 60px;
+    background-color: #fff;
+    p {
+      font-size: 14px;
+      margin-bottom: 4px;
+      color: #909090;
+    }
+  }
+  .interior-details-adress-saved-cont:nth-child(3n) {
+    background-color: #eee;
+  }
+}

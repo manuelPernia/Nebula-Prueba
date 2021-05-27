@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/32/mail</title>
+    <g id="icon/32/mail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval-Copy" fill="#FFFFFF" cx="16" cy="16" r="15"></circle>
+        <path d="M6,11 L6,22 C6,23.1045695 6.8954305,24 8,24 L24,24 C25.1045695,24 26,23.1045695 26,22 L26,11 C26,9.8954305 25.1045695,9 24,9 L8,9 C6.8954305,9 6,9.8954305 6,11 Z M7.25,10.25 L16,17.75 L24.75,10.25" id="Combined-Shape" fill="#000000"></path>
+    </g>
+</svg>

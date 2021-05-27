@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/32/prev-step</title>
+    <g id="icon/32/prev-step" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#3697CF" cx="16" cy="16" r="11"></circle>
+        <polyline id="Path-14" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(15.589842, 16.230934) rotate(90.000000) translate(-15.589842, -16.230934) " points="10.5898421 13.7309338 15.7542415 18.7309338 20.5898421 13.7309338"></polyline>
+    </g>
+</svg>

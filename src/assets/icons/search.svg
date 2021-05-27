@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/32/search</title>
+    <defs>
+        <circle id="path-1" cx="16" cy="16" r="16"></circle>
+        <filter x="-18.8%" y="-18.8%" width="137.5%" height="137.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="icon/32/search" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-32-search">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <circle id="Oval-Copy-4" fill="#3697CF" cx="16" cy="16" r="13"></circle>
+        </g>
+        <path d="M14.875,19.75 C17.5673882,19.75 19.75,17.5673882 19.75,14.875 C19.75,12.1826118 17.5673882,10 14.875,10 C12.1826118,10 10,12.1826118 10,14.875 C10,17.5673882 12.1826118,19.75 14.875,19.75 Z M18.25,19 L22,22.75 M14.875,12.0625 C13.3216991,12.0625 12.0625,13.3216991 12.0625,14.875" id="Combined-Shape" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+</svg>

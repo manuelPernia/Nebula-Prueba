@@ -1,0 +1,100 @@
+<section class="people">
+  <div class="total-people-cont cont-mid">
+    <div class="inl inl-mid">
+      <div class="inl inl-mid">
+        <p class="inl inl-mid">Total de personas</p>
+        <!-- <p class="inl inl-mid people-value">{{peopleDetail.total}}</p> -->
+      </div>
+      <div class="people-new inl inl-mid">
+        <p class="inl inl-mid">Nuevos</p>
+        <p class="inl inl-mid people-value">20</p>
+      </div>
+    </div>
+    <div class="inl inl-mid txt-r">
+      <div class="people-options inl inl-mid txt-c">
+        <img src="../assets/icons/download.svg" />
+      </div>
+      <div class="people-options inl inl-mid txt-c">
+        <img src="../assets/icons/chat.svg" />
+      </div>
+      <div class="people-options inl inl-mid txt-c">
+        <img src="../assets/icons/settings.svg" />
+      </div>
+    </div>
+  </div>
+  <div class="people-title-info">
+    <div class="people-title-info-description inl inl-mid">
+      <img src="../assets/icons/flag.svg" />
+    </div>
+    <div class="people-title-info-description inl inl-mid">
+      <p class="inl inl-mid">Id</p>
+      <img class="inl inl-mid" src="../assets/icons/arrow.svg" />
+    </div>
+    <div class="people-title-info-description inl inl-mid">
+      <p class="inl inl-mid">Nombre</p>
+      <img class="inl inl-mid" src="../assets/icons/arrow.svg" />
+    </div>
+    <div class="people-title-info-description inl inl-mid">
+      <p class="inl inl-mid">Email</p>
+      <img class="inl inl-mid" src="../assets/icons/arrow.svg" />
+    </div>
+    <div class="people-title-info-description inl inl-mid">
+      <p class="inl inl-mid">Fecha</p>
+      <img class="inl inl-mid" src="../assets/icons/arrow.svg" />
+    </div>
+    <div class="people-title-info-description inl inl-mid">
+      <p class="inl inl-mid">Status</p>
+      <img class="inl inl-mid" src="../assets/icons/arrow.svg" />
+    </div>
+  </div>
+  <div
+    class="people-details-info"
+    *ngFor="let people of peopleDetail"
+  >
+    <div class="people-details-info-details inl inl-mid txt-l">
+      <input class="checkbox inl inl-mid" type="checkbox" />
+      <img class="inl inl-mid" src="../assets/icons/pin.svg" />
+    </div>
+    <div class="people-details-info-details inl inl-mid txt-l">
+      <p>{{ people.person_id }}</p>
+    </div>
+    <div class="people-details-info-details inl inl-mid txt-l">
+      <p>{{ people.name }} {{ people.lastname }}</p>
+    </div>
+    <div class="people-details-info-details inl inl-mid txt-l">
+      <p>{{ people.email }}</p>
+    </div>
+    <div class="people-details-info-details inl inl-mid txt-l">
+      <p>{{ people.updated_at }}</p>
+    </div>
+    <div class="people-details-info-details inl inl-mid txt-l">
+      <div class="status inl inl-mid"></div>
+      <p class="inl inl-mid">Active</p>
+    </div>
+  </div>
+  <div class="paginator cont-mid">
+    <div class="inl inl-mid txt-l">
+      <p class="paginator-text">Mostrando 1 a 12 de 1200 entradas</p>
+    </div>
+    <div class="inl inl-mid txt-r">
+      <div class="paginator-cont">
+        <div class="inl inl-mid">
+          <img src="../assets/icons/prev-step.svg" />
+        </div>
+        <div class="paginator-step inl inl-mid txt-c paginator-active">
+          <p>1</p>
+        </div>
+        <div class="paginator-step inl inl-mid txt-c"><p>2</p></div>
+        <div class="paginator-step inl inl-mid txt-c"><p>3</p></div>
+        <div class="paginator-step inl inl-mid txt-c"><p>4</p></div>
+        <div class="paginator-step inl inl-mid txt-c"><p>5</p></div>
+        <div class="paginator-step inl inl-mid txt-c"><p>6</p></div>
+        <div class="paginator-step inl inl-mid txt-c"><p>7</p></div>
+        <div class="paginator-step inl inl-mid txt-c"><p>8</p></div>
+        <div class="inl inl-mid">
+          <img src="../assets/icons/next-step.svg" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
